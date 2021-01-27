@@ -102,6 +102,9 @@ class User(AbstractBaseUser, PermissionsMixin):
     )
     date_joined = models.DateTimeField(_('date joined'), default=timezone.now)
 
+    # EXTRA FIELDS
+    bio = models.CharField(_('bio'), max_length=500, blank=True)
+
     objects = UserManager()
 
     EMAIL_FIELD = 'email'
