@@ -6,6 +6,7 @@ from django.core.mail import send_mail
 from django.db import models
 from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
+from datetime import date
 
 
 class UserManager(BaseUserManager):
@@ -104,7 +105,8 @@ class User(AbstractBaseUser, PermissionsMixin):
 
     # EXTRA FIELDS
     bio = models.CharField(_('bio'), max_length=500, blank=True)
-    instituicao = models.CharField(_('Instituição'), max_length=150, blank=True)
+    instituicao = models.CharField(_('instituição'), max_length=150, blank=True)
+    data_nascimento = models.DateField(_('data nascimento'), default=date.today)
 
     objects = UserManager()
 
