@@ -104,6 +104,7 @@ class User(AbstractBaseUser, PermissionsMixin):
 
     # EXTRA FIELDS
     bio = models.CharField(_('bio'), max_length=500, blank=True)
+    instituicao = models.CharField(_('Instituição'), max_length=150, blank=True)
 
     objects = UserManager()
 
