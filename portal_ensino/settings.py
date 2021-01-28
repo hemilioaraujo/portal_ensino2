@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'collectfast',
     'django.contrib.staticfiles',
     'portal_ensino.base',
 ]
@@ -125,6 +126,7 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'mediafiles'
 
 AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
+COLLECTFAST_ENABLED = False
 
 # STORAGE CONFIGURATION S3
 if AWS_ACCESS_KEY_ID:
