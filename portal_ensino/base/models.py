@@ -107,6 +107,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     bio = models.CharField(_('bio'), max_length=500, blank=True)
     instituicao = models.CharField(_('instituição'), max_length=150, blank=True)
     data_nascimento = models.DateField(_('data nascimento'), default=date.today)
+    foto = models.ImageField(upload_to='fotos/profile/', default='fotos/profile/default.jpeg', null=True, blank=True)
 
     objects = UserManager()
 
