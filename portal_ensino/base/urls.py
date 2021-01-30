@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, include
 from portal_ensino.base.views import home, xpto
 
 app_name = 'base'
@@ -10,6 +10,7 @@ urlpatterns = [
     path('', xpto, name='exibir_profile'),
     path('', xpto, name='aula'),
     path('', xpto, name='sobre'),
-    path('', xpto, name='logout'),
-    path('', xpto, name='login'),
+
+    # LOGIN
+    path('contas/', include('django.contrib.auth.urls')),
 ]
