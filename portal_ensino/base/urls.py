@@ -7,6 +7,7 @@ urlpatterns = [
     path('', home, name='home'),
     path('', xpto, name='atualizar_usuario'),
     path('', xpto, name='novo_usuario'),
+    path('', xpto, name='password_reset'),
     path('', xpto, name='exibir_profile'),
     path('', xpto, name='aula'),
     path('', xpto, name='sobre'),
