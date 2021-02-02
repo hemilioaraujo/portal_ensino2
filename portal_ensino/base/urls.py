@@ -1,5 +1,6 @@
 from django.urls import path, include
 from portal_ensino.base.views import home, xpto
+from portal_ensino.api import urls as urls_api
 
 app_name = 'base'
 
@@ -14,4 +15,7 @@ urlpatterns = [
 
     # LOGIN
     path('contas/', include('django.contrib.auth.urls')),
+
+    # API
+    path('api/', include(urls_api))
 ]

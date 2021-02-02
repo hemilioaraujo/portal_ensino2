@@ -44,7 +44,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'collectfast',
     'django.contrib.staticfiles',
+    'rest_framework',
+
+    # PROJECT'S APP'S
     'portal_ensino.base',
+    'portal_ensino.api',
 ]
 
 MIDDLEWARE = [
