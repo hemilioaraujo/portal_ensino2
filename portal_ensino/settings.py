@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     # PROJECT'S APP'S
     'portal_ensino.base',
     'portal_ensino.api',
+    'portal_ensino.aulas',
 ]
 
 REST_FRAMEWORK = {
