@@ -30,7 +30,7 @@ class UserAdmin(admin.ModelAdmin):
     fieldsets = (
         (None, {'fields': ('username', 'password')}),
         (_('Personal info'), {
-            'fields': ('first_name', 'last_name', 'email', 'bio', 'instituicao', 'data_nascimento', 'foto')
+            'fields': ('first_name', 'last_name', 'email', 'bio', 'instituicao', 'data_nascimento', 'foto', 'aula_atual')
         }
          ),
         (_('Permissions'), {

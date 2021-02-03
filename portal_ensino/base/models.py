@@ -8,6 +8,8 @@ from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
 from datetime import date
 
+from portal_ensino.aulas.models import Aulas
+
 
 class UserManager(BaseUserManager):
     use_in_migrations = True
@@ -108,6 +110,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     instituicao = models.CharField(_('instituição'), max_length=150, blank=True)
     data_nascimento = models.DateField(_('data nascimento'), default=date.today)
     foto = models.ImageField(upload_to='fotos/profile/', default='fotos/profile/default.jpeg', null=True, blank=True)
+    aula_atual = models.ForeignKey(Aulas, default=1, on_delete=models.SET_DEFAULT)
 
     objects = UserManager()
 
