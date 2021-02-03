@@ -1,6 +1,7 @@
 from django.urls import path, include
 from portal_ensino.base.views import home, xpto
 from portal_ensino.api import urls as urls_api
+from portal_ensino.aulas import urls as urls_aulas
 
 app_name = 'base'
 
@@ -10,12 +11,14 @@ urlpatterns = [
     path('', xpto, name='novo_usuario'),
     path('', xpto, name='password_reset'),
     path('', xpto, name='exibir_profile'),
-    path('', xpto, name='aula'),
     path('', xpto, name='sobre'),
 
     # LOGIN
     path('contas/', include('django.contrib.auth.urls')),
 
     # API
-    path('api/', include(urls_api))
+    path('api/', include(urls_api)),
+
+    # AULAS
+    path('aulas/', include(urls_aulas)),
 ]

@@ -30,7 +30,16 @@ class UserAdmin(admin.ModelAdmin):
     fieldsets = (
         (None, {'fields': ('username', 'password')}),
         (_('Personal info'), {
-            'fields': ('first_name', 'last_name', 'email', 'bio', 'instituicao', 'data_nascimento', 'foto')
+            'fields': (
+                'first_name',
+                'last_name',
+                'email',
+                'bio',
+                'instituicao',
+                'data_nascimento',
+                'foto',
+                'aula_atual'
+            )
         }
          ),
         (_('Permissions'), {
@@ -70,12 +79,12 @@ class UserAdmin(admin.ModelAdmin):
 
     def get_urls(self):
         return [
-            path(
-                '<id>/password/',
-                self.admin_site.admin_view(self.user_change_password),
-                name='auth_user_password_change',
-            ),
-        ] + super().get_urls()
+                   path(
+                       '<id>/password/',
+                       self.admin_site.admin_view(self.user_change_password),
+                       name='auth_user_password_change',
+                   ),
+               ] + super().get_urls()
 
     def lookup_allowed(self, lookup, value):
         # Don't allow lookups involving passwords.
