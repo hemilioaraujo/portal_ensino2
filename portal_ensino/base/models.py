@@ -8,7 +8,7 @@ from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
 from datetime import date
 
-from portal_ensino.aulas.models import Aulas
+# from portal_ensino.aulas.models import Aulas
 
 
 class UserManager(BaseUserManager):
