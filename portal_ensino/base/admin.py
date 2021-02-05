@@ -38,7 +38,7 @@ class UserAdmin(admin.ModelAdmin):
                 'instituicao',
                 'data_nascimento',
                 'foto',
-                'aula_atual'
+                # 'aula_atual'
             )
         }
          ),

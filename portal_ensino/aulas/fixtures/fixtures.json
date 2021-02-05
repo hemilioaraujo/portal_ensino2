@@ -1,0 +1,410 @@
+[
+    {
+        "model": "aulas.Aulas",
+        "pk": 1,
+        "fields": {
+            "titulo": "Sistema de Equações",
+            "link": "pbFZW1eTnkk"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 2,
+        "fields": {
+            "titulo": "Introdução ao Escalonamento",
+            "link": "wvrMO_C-cdE"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 3,
+        "fields": {
+            "titulo": "Pivô e Escalonamento",
+            "link": "a_IfBj7Gdfs"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 4,
+        "fields": {
+            "titulo": "Discussão de Sistema",
+            "link": "ganCbJlJTbE"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 5,
+        "fields": {
+            "titulo": "Resolução de Sistema com Escalonamento",
+            "link": "eTEPbbhL2hM"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 6,
+        "fields": {
+            "titulo": "Discussão de Sistema - Gauss",
+            "link": "IQj37-tv5e4"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 7,
+        "fields": {
+            "titulo": "Resolução de Sistema por Gauss",
+            "link": "YXPuZFWGmyw"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 8,
+        "fields": {
+            "titulo": "Vetores",
+            "link": "0Gp1QgdhujE"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 9,
+        "fields": {
+            "titulo": "Operações com vetores",
+            "link": "z1DQ3vXvGLw"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 10,
+        "fields": {
+            "titulo": "Combinação Linear de Vetores",
+            "link": "eB7KJKV2k-E"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 11,
+        "fields": {
+            "titulo": "Combinação Linear - Ex1",
+            "link": "8peVbC0j6aI"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 12,
+        "fields": {
+            "titulo": "Combinação Linear - Ex2",
+            "link": "MYH54JuIj0Y"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 13,
+        "fields": {
+            "titulo": "Combinação Linear - Ex3",
+            "link": "7MVG47_THHg"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 14,
+        "fields": {
+            "titulo": "Combinação Linear - Ex4",
+            "link": "K6yWkn59-JI"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 15,
+        "fields": {
+            "titulo": "Dependência Linear",
+            "link": "1NQgheFnX9A"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 16,
+        "fields": {
+            "titulo": "Dependência Linear - Ex 1",
+            "link": "jA-6Xcw8__E"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 17,
+        "fields": {
+            "titulo": "Dependência Linear - Ex 2",
+            "link": "wgIGAY5nQk0"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 18,
+        "fields": {
+            "titulo": "Dependência Linear - Ex 3",
+            "link": "V7ysHtEi1q4"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 19,
+        "fields": {
+            "titulo": "Dependência Linear - Ex 4",
+            "link": "LigrD3eurZs"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 20,
+        "fields": {
+            "titulo": "Espaço Vetorial - Ex1",
+            "link": "e8kAs458cVI"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 21,
+        "fields": {
+            "titulo": "Espaço Vetorial - Ex2",
+            "link": "KXVCjPjgpq4"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 22,
+        "fields": {
+            "titulo": "Subespaço Vetorial - Ex1",
+            "link": "XxUWCQaVwKM"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 23,
+        "fields": {
+            "titulo": "Subespaço Vetorial - Ex2",
+            "link": "HnGwjpfp3Gc"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 24,
+        "fields": {
+            "titulo": "Subespaço Vetorial - Ex3",
+            "link": "j9XnjqEUUkQ"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 25,
+        "fields": {
+            "titulo": "Subespaço Vetorial - Ex4",
+            "link": "AtMFysEdlag"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 26,
+        "fields": {
+            "titulo": "Subespaço Vetorial - Ex5",
+            "link": "YAxsFPVv3ds"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 27,
+        "fields": {
+            "titulo": "Subespaço Gerado - Ex.1",
+            "link": "lqfAoCG1CMY"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 28,
+        "fields": {
+            "titulo": "Subespaço Gerado - Ex.2",
+            "link": "zE9g8XT2oMg"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 29,
+        "fields": {
+            "titulo": "Subespaço Gerado - Ex.3",
+            "link": "WQiEA4_PbbU"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 30,
+        "fields": {
+            "titulo": "Base de um Espaço Vetorial",
+            "link": "1s1d_z5iQbk"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 31,
+        "fields": {
+            "titulo": "Como calcular uma base geradora",
+            "link": "H_yOpYU7hTY"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 32,
+        "fields": {
+            "titulo": "Extraindo a base geradora de um subespaço. Exercício 1",
+            "link": "5dst5A_ch0k"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 33,
+        "fields": {
+            "titulo": "Extraindo a base geradora de um subespaço. Exercício 2",
+            "link": "5kAQ_r1yWXg"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 34,
+        "fields": {
+            "titulo": "Extraindo a base geradora de um subespaço. Exercício 3",
+            "link": "ELo65Qjv5Dg"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 35,
+        "fields": {
+            "titulo": "Extraindo a base geradora de um subespaço. Exercício 4",
+            "link": "FUOxfqt8zrM"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 36,
+        "fields": {
+            "titulo": "Como extrair uma base geradora de um conjunto de vetores",
+            "link": "shH9uTczXDI"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 37,
+        "fields": {
+            "titulo": "Subespaço gerado a partir de um conjunto de vetores",
+            "link": "ZRuJXCG2CpI"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 38,
+        "fields": {
+            "titulo": "Mudança de base geradora",
+            "link": "muA2fcZGQXs"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 39,
+        "fields": {
+            "titulo": "Mudança de base sem uso de matriz inversa",
+            "link": "U55o4HTmPF0"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 40,
+        "fields": {
+            "titulo": "Mudança de base . Vetor com 3 componentes",
+            "link": "Qta17OWjsFs"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 41,
+        "fields": {
+            "titulo": "Dedução da Fórmula Matriz Mudança de base",
+            "link": "4bc1We6Akkc"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 42,
+        "fields": {
+            "titulo": "Mudança de Base de um Vetor com a Matriz Mudança de base",
+            "link": "3F3E8DcivKg"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 43,
+        "fields": {
+            "titulo": "Mudança de base demonstrado graficamente",
+            "link": "9UozHl91Zdg"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 44,
+        "fields": {
+            "titulo": "Introdução a Transformação Linear",
+            "link": "O3rou_UUIIg"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 45,
+        "fields": {
+            "titulo": "Transformação Linear",
+            "link": "h96mnXdcsaI"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 46,
+        "fields": {
+            "titulo": "Transformação Linear",
+            "link": "ZB28kpo0VTQ"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 47,
+        "fields": {
+            "titulo": "Propriedades da Transformação Linear",
+            "link": "xYAbFnh4Rco"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 48,
+        "fields": {
+            "titulo": "Propriedades da Transformação Linear",
+            "link": "6EM6dBEGc-g"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 49,
+        "fields": {
+            "titulo": "Dada imagem, ache a Transformação Linear",
+            "link": "aera-zZlBMs"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 50,
+        "fields": {
+            "titulo": "Como obter a lei de uma Transformação Linear",
+            "link": "igvfXiYiwAY"
+        }
+    },
+    {
+        "model": "aulas.Aulas",
+        "pk": 51,
+        "fields": {
+            "titulo": "Como obter a lei de uma Transformação Linear",
+            "link": "inBnKDHEJ2s"
+        }
+    }
+]
