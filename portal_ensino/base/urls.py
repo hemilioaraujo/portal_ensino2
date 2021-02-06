@@ -2,6 +2,7 @@ from django.urls import path, include
 from portal_ensino.base.views import home, xpto
 from portal_ensino.api import urls as urls_api
 from portal_ensino.aulas import urls as urls_aulas
+from portal_ensino.questoes import urls as urls_questoes
 
 app_name = 'base'
 
@@ -21,4 +22,7 @@ urlpatterns = [
 
     # AULAS
     path('aulas/', include(urls_aulas)),
+
+    # EXERCICIOS
+    path('exercicios/', include(urls_questoes)),
 ]
