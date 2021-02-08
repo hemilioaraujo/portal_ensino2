@@ -48,3 +48,15 @@ def proxima_aula(request):
         usuario.save()
 
     return redirect('base:aula')
+
+
+@login_required
+def aula_anterior(request):
+    usuario = User.objects.get(id=request.user.id)
+    aula_id = request.user.aula_atual.id
+
+    if aula_id > Aulas.objects.first().id:
+        usuario.aula_atual = Aulas.objects.get(id=aula_id-1)
+        usuario.save()
+
+    return redirect('base:aula')
