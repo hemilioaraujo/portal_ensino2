@@ -3,6 +3,7 @@ from portal_ensino.base.views import home, xpto
 from portal_ensino.api import urls as urls_api
 from portal_ensino.aulas import urls as urls_aulas
 from portal_ensino.questoes import urls as urls_questoes
+from portal_ensino.comentarios import urls as urls_comentarios
 
 app_name = 'base'
 
@@ -25,4 +26,7 @@ urlpatterns = [
 
     # EXERCICIOS
     path('exercicios/', include(urls_questoes)),
+
+    # COMENTARIOS
+    path('comentarios/', include(urls_comentarios)),
 ]
