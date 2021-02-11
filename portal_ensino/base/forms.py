@@ -11,7 +11,7 @@ class UserUpdateForm(ModelForm):
     email = forms.EmailField(required=False, label='E-mail:')
     bio = forms.CharField(required=False, label='Bio:')
     instituicao = forms.CharField(required=False, label='Instituição:')
-    data_nascimento = forms.DateInput(format='%Y-%m-%d', attrs={'type': 'date', 'class': 'biruleibe'})
+    data_nascimento = forms.DateInput(format='%Y-%m-%d', attrs={'type': 'date', 'class': 'calendario'})
     foto = forms.ImageField()
 
     class Meta:
@@ -29,5 +29,5 @@ class UserUpdateForm(ModelForm):
 
         widgets = {
             'data_nascimento': forms.widgets.DateInput(
-                  format='%Y-%m-%d', attrs={'type': 'date', 'class': 'biruleibe'})
+                  format='%Y-%m-%d', attrs={'type': 'date', 'class': 'calendario'})
         }

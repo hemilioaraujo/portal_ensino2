@@ -15,20 +15,17 @@ def exibir_profile(request):
 @login_required
 def usuarios_update(request):
     if request.method == 'POST':
-        print(request.FILES)
+        update_user_form = UserUpdateForm(request.POST, request.FILES, instance=request.user)
         if 'cancel' in request.POST:
             return redirect('base:home')
 
         elif 'save' in request.POST:
-            update_user_form = UserUpdateForm(request.POST, instance=request.user)
-
             if update_user_form.is_valid():
                 update_user_form.save()
 
                 return redirect('base:home')
-        else:
-            update_user_form = UserUpdateForm(request.POST, instance=request.user)
 
+        elif 'atualizar' in request.POST:
             if update_user_form.is_valid():
                 update_user_form.save()
 
