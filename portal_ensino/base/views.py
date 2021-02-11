@@ -75,5 +75,9 @@ def usuarios_novo(request):
     return render(request, 'registration/registro.html', itens_da_pagina)
 
 
+def sobre(request):
+    return render(request, "base/sobre.html")
+
+
 def xpto(request, *args):
     ...
